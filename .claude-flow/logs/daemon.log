@@ -544,3 +544,19 @@
 [2026-11-07T20:22:53.460Z] [INFO] Daemon started (PID: 509, CPUs: 4, workers: 7, maxCpuLoad: 3.2, minFreeMemoryPercent: 10%)
 [2026-11-07T20:22:53.464Z] [INFO] Starting worker: map (1/2 concurrent)
 [2026-11-07T20:22:53.464Z] [INFO] Worker map completed in 3ms
+[2026-11-07T20:24:53.466Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-07T20:24:53.467Z] [INFO] Worker audit completed in 3ms
+[2026-11-07T20:26:53.465Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-07T20:26:53.467Z] [INFO] Worker optimize completed in 3ms
+[2026-11-08T13:37:27.632Z] [INFO] AI workers disabled (default) - all workers run local-only. Enable with `daemon start --headless`, daemon.aiWorkers.enabled=true in ~/.claude-flow/config.json (a project config cannot enable it), or RUFLO_DAEMON_AI_WORKERS=1 (#2661)
+[2026-11-08T13:37:27.634Z] [INFO] Scheduled map (interval: 900s, first run in 0s)
+[2026-11-08T13:37:27.634Z] [INFO] Scheduled audit (interval: 600s, first run in 120s)
+[2026-11-08T13:37:27.634Z] [INFO] Scheduled optimize (interval: 900s, first run in 240s)
+[2026-11-08T13:37:27.634Z] [INFO] Scheduled consolidate (interval: 1800s, first run in 360s)
+[2026-11-08T13:37:27.634Z] [INFO] Scheduled testgaps (interval: 1200s, first run in 480s)
+[2026-11-08T13:37:27.634Z] [INFO] Scheduled backup (interval: 86400s, first run in 600s)
+[2026-11-08T13:37:27.634Z] [INFO] Scheduled harness (interval: 21600s, first run in 720s)
+[2026-11-08T13:37:27.634Z] [INFO] Lifecycle monitor active (workspace-removal, ttl=43200s, idle=1800s)
+[2026-11-08T13:37:27.646Z] [INFO] Daemon started (PID: 639, CPUs: 4, workers: 7, maxCpuLoad: 3.2, minFreeMemoryPercent: 10%)
+[2026-11-08T13:37:27.648Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-08T13:37:27.649Z] [INFO] Worker map completed in 2ms
